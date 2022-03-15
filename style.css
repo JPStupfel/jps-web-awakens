@@ -1,3 +1,15 @@
 body {
-    background: blue;
+    background: white;
   }
+
+  canvas {
+    background-color: #000000;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 20%;}
+
+  #Title {text-align: center;}
+
+  h1 {color: green;}

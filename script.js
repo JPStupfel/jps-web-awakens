@@ -4,8 +4,14 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 var l = canvas.getContext('2d');
 let defaultCoords = { };
-const ballCount = 10;
-let color = 'white'
+var ballCount = 5;
+let color = 'black'
+
+function setBallCount() {
+alert('enter is working')
+x = document.getElementById('getBallCount').value
+
+}
 
 function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
@@ -82,10 +88,6 @@ for (i in ballArray) {
 }
 
 
-
-
-
-//ballArray[key].speedNorth=ballArray[i].speedNorth; ballArray[key].speedEast=ballArray[i].speedEast
 
 
 
