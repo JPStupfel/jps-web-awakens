@@ -77,13 +77,7 @@ if (checkBallTouchNorth(ballArray[key]))
   
 for (i in ballArray) {
     if (i>key && checkIfBallsTouch(ballArray[key],ballArray[i])) { ballSwapSpeed(ballArray[key],ballArray[i]) } }
-    
-
-        
-            
-             
-
-     }
+    }
 
 }
 
